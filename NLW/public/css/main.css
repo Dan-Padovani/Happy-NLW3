@@ -1,0 +1,25 @@
+/* o que é uma regra css? Composta por "seletor" e na declaração onde tem a propriedade: e o valor: */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*margin:0; = espaçamento, com F12 eu vejo isso no navegador*/
+  height: 100vh;
+  color: white;
+  background: #ebf2f5;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+unput,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
